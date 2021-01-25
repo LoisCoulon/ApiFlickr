@@ -23,7 +23,7 @@ export class SearchComponent implements OnInit {
       .toPromise()
       .then(res => {
         this.images = res;
-      })
+      });
     }
   }
 
